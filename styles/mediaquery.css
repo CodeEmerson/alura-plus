@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and ( max-width: 770px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-image: none;
+     }
+
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .secundaria__imagem  {
+        width: 50vw;
+        padding: 1em;
+    }
+
+    .descricao__texto {
+        font-size: 15px;
+    }
+
+    .texto__flex {
+        margin: 0;
+    }
+
+    .rodape__lista{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: 3em;
+    }
+
+    .lista__link > a {
+       margin: auto;
+       line-height: 1.8em;
+    }
+
+    .rodape__texto {
+        margin: 1.8em 0;
+    }
+}
